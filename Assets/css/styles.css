@@ -1,0 +1,425 @@
+body a:visited{
+    color: burlywood;
+}
+
+body a:hover{
+    position: relative;
+    top: 5px;
+
+}
+
+header{
+    padding: 5px 50px;
+    margin-bottom: 10px;
+    /* background-color: blue; */
+
+}
+
+nav{
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+}
+
+nav img{
+    /* background-color: blueviolet; */
+    margin-right: 100px;
+
+}
+
+nav a{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited{
+    color: green;
+}
+
+nav a:hover{
+    color: brown;
+    position: relative;
+    top: 5px;
+}
+
+.hero{
+    background: url(./../images/financial-crime-intelligent-decisions.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    display: flex;
+}
+
+.hero-content{
+    margin-left: 300px;
+    margin-top: 80px;
+    width: 400px;
+}
+
+.hero-content .global{
+    color: orangered;
+    /* background-color: blueviolet; */
+
+}
+
+
+.hero-content .btn{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.hero-content .btn:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px 20px;
+    display: flex;
+    max-width: 3000px;
+    margin: 50px 90px;
+    /* background: url(./../images/white.htm);  */
+}
+
+.about .about-content1{
+    flex: 1;
+    margin-right: 50px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.about-content1 h2{
+    margin-bottom: 20px;
+}
+
+.about-content1 .highlight{
+    color: orangered;
+}
+
+.about-content1 p{
+    margin-bottom: 20px;
+}
+
+.btn{
+   text-decoration: none;
+   color: black; 
+   background-color: transparent;
+   border: solid 1px black;
+   border-radius: 20px;
+   padding: 5px 20px;
+   margin-left: 20px;
+   cursor: pointer;
+}
+
+.btn:hover{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.about .about-content2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content2 .icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.about-content2 h3{
+    margin-bottom: 0px;
+}
+
+.about-content2::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    bottom: 50px;
+    left: 55px;
+    width: 2px;
+    background: orange;
+}
+.img{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    position:relative;
+}
+
+.img .icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img .icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.about-content2 h3, p{
+    margin-bottom: 10px;
+}
+
+.services {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.services:hover{
+    background-color: aqua;
+    font-size: 20px;
+}
+
+
+.services h2 {
+    margin-bottom: 10px;
+}
+
+.services .subheading{
+    margin-bottom: 40px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+}
+
+.service-item .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+
+.service-item .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+}
+
+.service-item:hover{
+    background-color: orangered;
+    font-size: 22px;
+    color: white;
+}
+
+.intelligence {
+    padding: 50px 20px;
+    background: white;
+}
+
+.intelligence-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intelligence-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.intelligence-item1 {
+    background: url(./../images/img4.jpg);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.intelligence-item2 {
+    background: url(./../images/img3.jpg);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.intelligence-item3 {
+    background: url(./../images/img2.jfif);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.intelligence-item4 {
+    background: url(./../images/img1.jpg);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.intelligence-item .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.intelligence-item .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.intelligence-item h3 {
+    font-size: 1.2em;
+}
+
+.intelligence-text {
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.intelligence-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.intelligence-text p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.intelligence-text ul {
+    list-style: circle;
+    margin-bottom: 20px;
+}
+
+.intelligence-text ul li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer {
+    background:rgb(27, 27, 36);
+    color:white;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 20px;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    color: whitesmoke;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.footer-column a {
+    text-decoration: none;
+}
+
+.footer-column form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-column input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.footer-column button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: orange;
+    color:white;
+    cursor: pointer;
+}
+
+.footer-column button[type="submit"]:hover {
+    background: rgb(92, 63, 11);
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    color: #666;
+}
+

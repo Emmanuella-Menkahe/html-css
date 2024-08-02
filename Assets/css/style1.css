@@ -1,0 +1,84 @@
+.form{
+    background-color: darkgray;
+    font-size: 20px;
+    width: 500px;
+    height: 350px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+.form h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form .btn{
+    text-decoration: none;
+    border: solid 1px;
+    width: 55px;
+    border-radius: 5px;
+    background: transparent;
+    margin-left: 200px;
+}
+
+#geeks1 {
+    background: teal;
+    display: block;
+    height: 100px;
+    width: 200px;
+}
+#geeks2 {
+    background: cyan;
+    display: block;
+    height: 100px;
+    width: 200px;
+}
+#geeks3 {
+    background: green;
+    display: block;
+    height: 100px;
+    width: 200px;
+}
+
+#geeks4 {
+    background: teal;
+    display: inline;
+    height: 100px;
+    width: 200px;
+}
+#geeks5 {
+    background: cyan;
+    display: inline;
+    height: 100px;
+    width: 200px;
+}
+#geeks6 {
+    background: green;
+    display: inline;
+    height: 100px;
+    width: 200px;
+}
+
+#geeks7 {
+    background: teal;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+#geeks8 {
+    background: cyan;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+#geeks9 {
+    background: green;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+
+
+
+
