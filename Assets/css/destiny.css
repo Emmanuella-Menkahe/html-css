@@ -47,7 +47,13 @@ header {
 
 .hero h1 {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-timing-function:ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
 }
 
 .hero p {
@@ -111,6 +117,7 @@ header {
 .about .card:hover{
     background-color: #3700b3;
     color: white;
+    transform: scale(1.2,1.2);
 }
 
 .about .card img {
@@ -121,12 +128,8 @@ header {
 
 .about .card h3 {
     margin: 20px 0 10px;
-    font-size: 1.2em;
 }
 
-.about .card p {
-    font-size: 0.9em;
-}
 
 /* @media screen and (max-width: 768px) {
     .card {
@@ -137,33 +140,32 @@ header {
 .design {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding-left: 200px;
     text-align: center;
     background-color: #f4f4f4;
+    height: 700px;
+    padding-top: 50px;
 
 }
 
 .design .card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 8px;
-    margin: 20px 0;
-    padding: 20px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .design .card-image {
-    width: 45%;
+    width: 75%;
     max-width: 400px;
-    margin: 20px;
+    height: 250px;
+    align-items: center;
 }
 
 .design .card-content {
     width: 45%;
     max-width: 400px;
     margin: 20px;
+    text-align: left;
 }
 
 .design .card h3 {
@@ -189,5 +191,87 @@ header {
     margin-bottom: 10px;
 }
 
+.testimonial {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
 
+.user-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-size: 25px;
+    margin: 10px 105px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.user-role {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.star-rating span {
+    font-size: 1.5em;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    height: 100px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    color: #6A0DAD;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+.contact-number {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.contact-text {
+    flex-grow: 1;
+    margin: 100px 50px;
+    font-size: 20px;
+
+
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #6A0DAD;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
+
+
+@keyframes anim{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
 

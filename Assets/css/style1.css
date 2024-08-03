@@ -22,7 +22,7 @@
     margin-left: 200px;
 }
 
-#geeks1 {
+/* #geeks1 {
     background: teal;
     display: block;
     height: 100px;
@@ -39,6 +39,14 @@
     display: block;
     height: 100px;
     width: 200px;
+} */
+
+.geeks1{
+    background-color: cyan;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    
 }
 
 #geeks4 {
@@ -61,7 +69,7 @@
 }
 
 #geeks7 {
-    background: teal;
+    background:var(--mycolor);
     display: inline-block;
     height: 100px;
     width: 200px;
@@ -73,12 +81,45 @@
     width: 200px;
 }
 #geeks9 {
-    background: green;
+    background: var(--mycolor);
     display: inline-block;
     height: 100px;
     width: 200px;
 }
 
+.dis{
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    justify-content: space-around;
+}
+
+:root{
+    --mycolor: green
+}
+
+.image:hover{
+    width: 100px;
+    height: 100px;
+    transform: scale(1.5, 1.5);
+}
 
 
+.example-table{
+    display: table;
+    width: 100%;
+    background-color: aqua;
+}
+
+.example-table-row{
+    display: table-row;
+}
+
+.example-table-cell{
+    display: table-cell;
+    padding: 5px;
+    background-color: yellow;
+    border: solid 1px ;
+    size: 50px;
+}
 
